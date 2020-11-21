@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.10.0",
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-typescript": "^7.10.0",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.0"
+  },
+  "name": "jm-test",
+  "private": "true",
+  "scripts": {
+    "build": "babel ./calculator/index.ts --extensions .ts --out-dir ./calculator",
+    "test": "jest"
+  }
+}
